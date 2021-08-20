@@ -1,8 +1,8 @@
 /*create a fun input response for the random form*/
 const randomForm = document.querySelector("#randomForm");
 const formButton = document.querySelector("#submit");
-
-
+const bitMeTalkBox = document.querySelector("#bitMeTalkBox")
+const bitInputBox = document.querySelector("#ugly1")
 
 
 
@@ -17,14 +17,20 @@ const formButton = document.querySelector("#submit");
 
 formButton.addEventListener("click",function(e){
 
-e.preventDefault();
+   if(bitInputBox.value === "hello"){
 
+      bitMeTalkBox.innerHTML="hi";
+      bitInputBox.value="";
+      
+   }else{
 
- console.log(randomForm.value)
+      bitMeTalkBox.innerHTML="???";
+      bitInputBox.value="";
+   }
+      e.preventDefault();
 
-
+      setTimeout(function(){bitMeTalkBox.innerHTML=""; }, 3000);
 });
-
 
 
 //instructions to make button set value of select option to "happy". 
