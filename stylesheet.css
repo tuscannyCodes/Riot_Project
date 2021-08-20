@@ -1,0 +1,282 @@
+
+
+/*highlighter text color for empasis*/ 
+
+
+.highlight{
+
+	color: rgb(3, 252, 244); 
+
+
+}
+
+#ugly1 {
+
+	margin-left: 30px;
+
+
+}
+
+
+
+/*highlighter text color for empasis*/ 
+
+
+/*size and dimentions of text box*/
+
+textarea {
+
+
+	height: 90px;
+
+	width:  180px;
+}
+/*highlighter text color for empasis*/
+
+
+
+}
+/*diffrent word colors on Journal page for fun*/ 
+
+.bcolor {
+
+	color: rgb(119, 252, 3)
+}
+
+.dcolor {
+
+	color: rgb(3, 252, 244); 
+}
+
+.ccolor {
+
+	color: rgb(220, 140, 230); ;
+}
+
+.ecolor {
+
+	color: rgb(237, 50, 147);
+}
+
+/*diffrent word colors on Journal page for fun*/ 
+
+
+/* Margins */
+
+.aboutText {
+
+position: relative;
+
+right: 20px; 
+
+
+}
+
+h1{ 
+
+margin: 30px; 
+
+ }
+
+ h3{
+
+ 	margin: 30px;
+
+ }
+
+ h4{ 
+
+ 	margin: 30px
+
+  }
+
+p{
+
+margin: 30px; 
+
+}
+
+h2{
+
+	margin: 30px 
+
+}
+
+ol {
+
+	margin: 30px 
+
+}
+
+.options {
+
+	margin: 30px
+
+}
+
+/*p {
+
+	padding: 10px ;
+*/
+
+
+
+/*Margins */
+
+
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: black; /* old IE */
+    background-color: black 
+}
+
+
+
+/* Font size*/
+
+body {
+
+	font-size: 20px;
+	
+
+}
+
+
+/* NAVIGATION BAR:  no list bullets*/ 
+
+
+.navLink {
+
+
+	color: black; 
+	text-decoration: underline;
+}
+
+
+li span {
+
+	color: black !important; 
+
+	list-style-type: none;
+	display: inline;
+
+
+
+}
+
+/* horizontal main menu list*/ 
+ul > li {
+
+	display:inline;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 5em
+
+
+
+
+}
+
+
+
+/*link hover*/ 
+a:hover {
+    /*background: black;*/
+	color: grey;
+}
+
+
+ 
+/* link color is yellow*/
+a   {
+	color: rgb(255, 213, 77);
+
+	text-decoration: none;
+	
+
+}
+
+a: visited {
+
+	color: white 
+	text-decoration: underline;
+}
+
+/*paragraph line hight spacing*/
+p { 
+
+	line-height: 1.7em
+
+
+ }
+
+ /*hiddentext--------------------------------*/
+.hide a {
+	text-decoration: none;
+	color: white ;
+}
+
+.hide a:hover {
+	
+	color: rgb(247, 234, 89);
+}
+/*hiddentext--------------------------------*/
+
+
+
+
+/* ordered list line hight spacing--------------------*/
+ol {
+
+
+	line-height:  1.4em 
+}
+/* ordered list line hight spacing--------------------*/
+
+/*footer*/
+
+.copyright {
+
+
+	font-size: 14px;
+	margin-bottom: -30px;
+}
+
+
+.foot { 
+
+text-align: center;
+ 
+ }
+
+/*footer*/
+
+ .options {
+
+ 	margin-top: -3em
+ }
+
+.feelings {
+
+	padding: 30px
+}
+
+#quoteDisplay {
+
+	padding: 30px
+}
+
+#quoteButton {
+
+	margin-left: 30px
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+
+
+
+
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<title> RIOT! </title> <!-- tab title--> 
+
+	</head>
+
+	<body>
+
+	
+
+		
+
+
+		<!-- Image Banner  -->
+	<div> 
+		
+		<a href="welcome.html"> <!-- links back to welcome page--> 
+		<center><img id="riot"  src="images/banner.jpg"></center>
+		</a>
+		
+	</div> 
+		<!--image Banner-->
+
+	
+
+	<div class="nav"> <!--horizontal navigation -->
+		<center>
+		<!--<div id="wrapper">-->
+		<ul class="main_menu">
+			<li><a class="navLink" href="index.html">home</a></li> 
+			<li><a class="navLink" href="journal.html">Thoughts</a></li>
+			<li><a class="navLink" href="about.html">about</a></li>
+		</ul>
+		 </div>
+		 </center>
+	</div> <!--horizontal navigation -->
+	
+	<br>
+	<br>
+	<hr style{10} >
+
+		<!-- Journal type text --> 
+	<div>
+	 
+			<h2> Hello, </h2>
+
+			
+
+			<p> My name is Tuscanny, and I am a front-end developer with one year of experience developing web applications and building websites. I am currently proficient in HTML5, CSS, and Javascript. I have a BA in Computer Science and a strong background in graphic design. I am dedicated and highly passionate about all things coding, design, and Web Development. In my free time, I enjoy working on personal projects, painting, and photography.  </p>
+
+	
+
+	</div>
+		 
+		<!-- 8bit image with embedded link-->
+		<a href="http://infiniteugly.com" target="_blank">
+		<img src="images/bitme_image.png" width="200"> </a>
+		<!-- 8bit image with embedded link-->
+
+
+		<!--A random form-->
+		<form id= "randomForm"> 
+
+			<label for="ugly1"></label>
+			<input type="text" id="ugly1" name="">
+			<button id="submit" type="submit" >submit </button>
+
+
+		</form>
+
+	<div> <!-- some lists -->
+
+
+		<h2> Reasons to be happy </h2>  
+
+		<ol>
+
+			<li> You are free to create! </li>
+			<li> There is always a potential to love! </li>
+			<li> Everything you are experiencing now is preparing you for the future! </li>
+			<li> You have so much to be greatful for! </li>
+			<li> You have a purpose! </li> 
+
+
+		</ol>
+
+	</div> <!-- Some lists --> 
+
+		<!-- Some FORMS -->
+<!-- Choice of happy sad selector -->
+		
+			<div class="feelings">
+			<form action="process.php" method="post">
+			<label> Im feeling </label>
+			
+			<select class= "choose" name="Feeling">
+				<option class="nhappy" value="blank"> </option>
+				
+			<option class= "fhappy" value="happy">happy</option>
+
+				<option class="nhappy" value="sad">sad</option>
+				<option class="nhappy" value="other">other</option>
+
+				
+
+			</select id= "happybutton"> 
+				<button type="button" onclick="setHappy()"> Be Happy </button>
+			<br>
+			<br>
+			</div>
+
+			<br>
+			<!-- Questions form field-->
+			<div class="options">
+				<label>Questions</label>
+				<input type="text" name="first-name" placeholder=" Any questions? "> 
+				<!--back end stuff-->
+			</div>
+			<br>
+			<div class="options">
+
+			<br>
+
+				<!--Concerns form field-->
+
+				<form action="process.php" method="post">  <!--back end stuff-->
+				<label>Concerns</label>
+				<input type="text" name="first-name" placeholder="Any Concerns? ">
+		</div>
+			<br>
+			<br>
+			<div class="options"><!--thought and opinions comment box--> 
+			<label>Thoughts and opinions</label>
+			<br>
+			<textarea name="comments" placeholder="Go ahead, Im listening..."></textarea> 
+			</form> 
+			</div>
+
+<div id="quoteDisplay">
+	
+
+	<!-- quotes will display here -->
+</div>
+<button id="quoteButton" onclick="newQuote()">Random Quote</button>
+
+
+<!--this is a div with a buffer of space to add some extra margin to the bottom of the page-->
+		<div style= "margin-top:500px"></div>
+
+
+		<!--footer-->
+	<div class="foot">
+
+		<P class= "copyright"> RIOT &copy; 2021 </P> 
+
+		<p><span style='border: 2px black solid'>1110101 1100111 1101100 1111001</span> </p>
+
+	</div>
+		<!--footer-->
+		<!-- Social icons--> 
+<!--<img src="images/igicon.png">-->
+
+	<script src="script.js" type="text/javascript">
+		</script>
+
+	</body>
+</html>
