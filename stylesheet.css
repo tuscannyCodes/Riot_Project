@@ -1,4 +1,9 @@
+*{
 
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
 
 /*highlighter text color for empasis*/ 
 
@@ -69,6 +74,16 @@ position: relative;
 
 right: 20px; 
 
+
+}
+
+button{
+
+	height: 40px;
+	box-shadow: none;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(233, 233, 233);
 
 }
 
@@ -296,9 +311,42 @@ text-align: center;
 	align-items: center;
 	align-content: center;
 }
+/*SCROLL ANIMATION*/
 
+.marquee {
+	position: relative;
+	overflow: hidden;
+	--offset: 15vw;
+	move-initial: calc(-25% + var(--offset));
+	--move-final: calc(-25% + var(--offset));
+	color: white;
+	background-color: black;
+	z-index: 1;
+	width: 200%;
+	
+  }
+  .marquee__inner {
+	width: fit-content;
+	display: flex;
+	position: relative;
+	animation: marquee 5s linear infinite;
 
-
-
-
-
+	width: 200vw;
+  }
+  
+  .marquee span {
+	font-size: 3em;
+	padding: 0 2vw;
+	white-space: nowrap;
+	font-family: "Teko", sans-serif;
+  }
+  
+  @keyframes marquee {
+	0% {
+	  transform: translate3d(var(--move-initial), 0, 0);
+	}
+  
+	100% {
+	  transform: translate3d(var(--move-final), 0, 0);
+	}
+  }
