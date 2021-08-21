@@ -2,6 +2,7 @@
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  cursor: default;
 }
 
 /*highlighter text color for empasis*/
@@ -150,11 +151,12 @@ a:hover {
 /* link color is yellow*/
 a {
   text-decoration: none;
-  color: gold;
+  color: grey;
 }
 
 .journalLinks {
   background-color: black;
+  cursor: pointer;
 }
 
 .journalLinks:visited {
