@@ -4,6 +4,18 @@
   padding: 0;
   cursor: default;
 }
+/*LANDING PAGE STYLES*/
+#welcomeText {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+#theWelcomeHeader {
+  cursor: pointer;
+  font-family: "Anton", sans-serif;
+}
 
 /*highlighter text color for empasis*/
 #nameSpan {
