@@ -4,6 +4,17 @@
   padding: 0;
   cursor: default;
 }
+
+#mainHeader {
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-size: 90px;
+}
+
+.nav {
+  margin-left: 100px;
+}
+
 /*LANDING PAGE STYLES*/
 #welcomeText {
   display: flex;
