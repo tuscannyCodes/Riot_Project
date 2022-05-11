@@ -3,6 +3,27 @@ const randomForm = document.querySelector("#randomForm");
 const formButton = document.querySelector("#submit");
 const bitMeTalkBox = document.querySelector("#bitMeTalkBox")
 const bitInputBox = document.querySelector("#ugly1")
+let practiceText = document.querySelector("#practiceText")
+let allText = document.getElementsByTagName("p");
+
+
+function textaway(){
+   allText.classList.add("whitetext")
+
+
+}
+textaway();
+
+
+function makeRed (){
+
+
+   practiceText.style.Color = "red"
+
+}
+
+
+
 
 
 
@@ -37,8 +58,7 @@ formButton.addEventListener("click",function(e){
 
 function setHappy () {
 
-
-document.querySelector(".choose" ).value = "happy"; 
+document.querySelector(".choose" ).value = "happy";
 
 };
 

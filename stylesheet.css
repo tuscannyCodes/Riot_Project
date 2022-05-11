@@ -5,6 +5,18 @@
   cursor: default;
 }
 
+p{
+
+  transition: all 1s ease
+}
+
+
+.whitetext{
+transition: all 1s ease;
+color: white;
+}
+
+
 #mainHeader {
   color: black;
   font-family: "Anton", sans-serif;
@@ -23,8 +35,17 @@
   cursor: pointer;
 }
 
+#theWelcomeHeaderDiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+}
+
 #theWelcomeHeader {
   cursor: pointer;
+
   font-family: "Anton", sans-serif;
 }
 /*LANDING PAGE STYLES*/
@@ -83,12 +104,16 @@ textarea {
 
 .aboutText {
   position: relative;
-
   right: 20px;
+
 }
 
+
 button {
+  
+  font-size: 10px;
   height: 40px;
+  width: 60px;
   box-shadow: none;
   border: none;
   border-radius: 5px;
